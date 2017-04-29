@@ -1,0 +1,20 @@
+
+html { 
+  background: url(https://climatecrock.files.wordpress.com/2015/04/sunfork.jpg?w=480) no-repeat center center fixed; 
+   background-size: cover;
+}
+img{height:300px;
+position:absolute;
+left:550px;
+top:400px;
+}
+button{width:300px;
+height:300px;
+}
+#buttontwo{position:absolute;
+left:550px;
+    }
+#buttonthree{position:absolute;
+left:1100px;
+}
+
