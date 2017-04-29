@@ -12,6 +12,7 @@ h1.Title{
     outline-style: double;
     border: 10px solid black;
     outline-color:yellow;
+    color:white;
 }
 
 p.Info{
@@ -19,11 +20,12 @@ p.Info{
     text-align:center;
     border-bottom-style: solid;
     border-bottom: 5px solid yellow;
+    color:white;
 }
 
 
 .button {
-    background-color: #4CAF50;
+    background-color: #d2d500;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -33,7 +35,8 @@ p.Info{
     font-size: 50px;
     margin: 4px 2px;
     cursor: pointer;
-     margin: auto;
+    margin: auto;
     width: 40%;
     display:block;
+    border-radius: 40px;
 }
