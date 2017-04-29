@@ -1,31 +1,31 @@
 body {
-    background-image: url("https://www.walldevil.com/wallpapers/a26/checks-background-blue-web-dark-damask-wallpaper-backgrounds-plain.jpg");
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:center center;
-    background-attachment:fixed;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
-h1.Title{
+h1.Title {
     font-size: 400%;
-    text-align:center;
+    color: blue;
+    text-align: center;
     outline-style: double;
     border: 10px solid black;
-    outline-color:yellow;
-    color:white;
+    outline-color: yellow;
 }
 
-p.Info{
+p.Info {
     font-size: 200%;
-    text-align:center;
+    color: blue;
+    text-align: center;
     border-bottom-style: solid;
     border-bottom: 5px solid yellow;
-    color:white;
+    padding-bottom: 20px;
 }
 
-
 .button {
-    background-color: #d2d500;
+    background-color: blue;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -37,6 +37,22 @@ p.Info{
     cursor: pointer;
     margin: auto;
     width: 40%;
-    display:block;
-    border-radius: 40px;
+    display: block;
+    border-radius: 12px;
+}
+
+#sadmickey {
+    width: 400px;
+    float: left;
+}
+
+#happymickey {
+    width: 400px;
+    float: right;
+}
+
+#wrapper {
+    width: 1300px;
+    margin: auto;
+    max-width: 100%;
 }
